@@ -2,10 +2,12 @@
 
 ## Dataset columns
 
-- label: binary label indicating whether the response is grammatical (1) or not (0).
-- response: text response produced by model
-- tag: source of response
-- scenario: input to model which produced the response
+- grammatical: whether text is grammatical (1) or not (0)
+- correct: whether the response correctly expresses information provided in goal and scenario (1) or not (0)
+- text: response produced by model
+- tag: source of text
+- goal: intent to be expressed in text
+- scenario: input to model which produced the text
 
 
 ## License
